@@ -47,6 +47,7 @@ install: build
 
 	cp fbxkb debian/fbxkb/usr/bin/
 	cp images/*.png debian/fbxkb/usr/share/fbxkb/images/
+	cp fbxkb-start debian/fbxkb/usr/local/bin/
 
 binary-indep: build install
 
